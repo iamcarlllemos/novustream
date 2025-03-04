@@ -15,8 +15,8 @@
                         <tr>
                             <th>ID</th>
                             <th>Property Type</th>
-                            <th>From ( m³ ) </th>
-                            <th>To ( m³ )</th>
+                            <th>From ( kw/h ) </th>
+                            <th>To ( kw/h )</th>
                             <th>Rate</th>
                             <th>Actions</th>
                         </tr>

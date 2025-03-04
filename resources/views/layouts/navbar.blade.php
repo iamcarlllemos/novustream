@@ -45,7 +45,7 @@
 						</button>
 						<ul class="dropdown-menu mt-3">
 							<li><a class="dropdown-item" href="{{route('property-types.index')}}">Property Types</a></li>
-							<li><a class="dropdown-item" href="{{route('water-rates.index')}}">Water Rates</a></li>
+							<li><a class="dropdown-item" href="{{route('water-rates.index')}}">Electric Rates</a></li>
 						</ul>
 					</div>
 				@endcan

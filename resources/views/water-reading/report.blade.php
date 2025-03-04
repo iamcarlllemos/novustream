@@ -52,7 +52,7 @@
                 { data: 'previous_reading', name: 'previous_reading' },
                 { data: 'present_reading', name: 'present_reading' },
                 { data: 'consumption', name: 'consumption', render: function(data, type, row) {
-                    return data + ' m³';
+                    return data + ' kw/h';
                 }},
                 { data: 'created_at', name: 'created_at' },
                 { data: 'actions', name: 'actions', orderable: false, searchable: false } // Fix: Explicitly set actions as non-sortable
