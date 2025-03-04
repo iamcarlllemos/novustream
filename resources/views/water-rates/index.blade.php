@@ -4,7 +4,7 @@
     <main class="main">
         <div class="responsive-wrapper">
             <div class="main-header d-flex justify-content-between">
-                <h1>Water Rates</h1>
+                <h1>Electric Rates</h1>
                 <a href="{{route('water-rates.create')}}" class="btn btn-primary px-5 py-3 text-uppercase">
                     Add New
                 </a>
