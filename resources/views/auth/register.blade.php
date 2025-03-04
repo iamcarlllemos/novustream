@@ -47,7 +47,7 @@
         <div class="overlay-container">
             <div class="overlay">
                 <div class="overlay-panel overlay-left">
-                    <img src="{{asset('images/novustreamlogo.png')}}" alt="" srcset="" class="w-100">
+                    <img src="{{asset('images/novusurge.png')}}" alt="" srcset="" class="w-100">
                     <p>To keep connected with us please login with your personal info</p>
                     <a href="/login" class="btn btn-primary border-2 fs-6 px-5 py-3 text-white fw-bold text-uppercase fw-bold" id="signIn">Sign In</a>
                 </div>
