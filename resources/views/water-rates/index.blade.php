@@ -4,7 +4,7 @@
     <main class="main">
         <div class="responsive-wrapper">
             <div class="main-header d-flex justify-content-between">
-                <h1>Water Rates</h1>
+                <h1>Electric Rates</h1>
                 <a href="{{route('water-rates.create')}}" class="btn btn-primary px-5 py-3 text-uppercase">
                     Add New
                 </a>
@@ -15,8 +15,8 @@
                         <tr>
                             <th>ID</th>
                             <th>Property Type</th>
-                            <th>From ( m³ ) </th>
-                            <th>To ( m³ )</th>
+                            <th>From ( kw/h ) </th>
+                            <th>To ( kw/h )</th>
                             <th>Rate</th>
                             <th>Actions</th>
                         </tr>

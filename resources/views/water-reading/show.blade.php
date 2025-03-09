@@ -49,8 +49,11 @@
                         $base64 = 'data:image/png;base64,' . base64_encode(file_get_contents($path));
                     @endphp
                     <div style="text-align: center; margin-top: 0; margin-bottom: 10px; padding-bottom: 10px;">
+                    
+                        <h4 style="margin-bottom: 5px;">NOVUSURGE</h4>
                         <img src="{{asset('/images/novustreamlogo.png')}}" alt="logo" class="web-logo">
                         <img src="{{ $base64 }}" alt="logo" class="print-logo">
+                        
                         <p style="font-size: 12px; text-transform: uppercase; margin: 0;">VAT Reg TIN: 218-595-528-000</p>
                         <p style="font-size: 12px; text-transform: uppercase; margin: 0;">Permit No. SP012021-0502-0912233-00000</p>
                     </div>

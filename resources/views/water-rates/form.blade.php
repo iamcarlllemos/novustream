@@ -5,9 +5,9 @@
         <div class="responsive-wrapper">
             <div class="main-header d-flex justify-content-between">
                 @if(isset($data))
-                    <h1>Update Water Rate</h1>
+                    <h1>Update Electric Rate</h1>
                 @else
-                    <h1>Add New Water Rate</h1>
+                    <h1>Add New Electric Rate</h1>
                 @endif
                 <a href="{{route('water-rates.index')}}" class="btn btn-outline-primary px-5 py-3 text-uppercase">
                     Go Back
