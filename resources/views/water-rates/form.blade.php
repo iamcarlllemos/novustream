@@ -39,14 +39,14 @@
                                             @enderror
                                         </div>
                                         <div class="col-md-6 mb-3">
-                                            <label for="cubic_from" class="form-label">From ( m³ )</label>
+                                            <label for="cubic_from" class="form-label">From ( KW/H )</label>
                                             <input type="text" class="form-control @error('cubic_from') is-invalid @enderror" id="cubic_from" name="cubic_from" value="{{ old('cubic_from', $data->cubic_from ?? '') }}">
                                             @error('cubic_from')
                                                 <div class="invalid-feedback">{{ $message }}</div>
                                             @enderror
                                         </div>
                                         <div class="col-md-6 mb-3">
-                                            <label for="cubic_to" class="form-label">To ( m³ )</label>
+                                            <label for="cubic_to" class="form-label">To ( KW/H )</label>
                                             <input type="text" class="form-control @error('cubic_to') is-invalid @enderror" id="cubic_to" name="cubic_to" value="{{ old('cubic_to', $data->cubic_to ?? '') }}">
                                             @error('cubic_to')
                                                 <div class="invalid-feedback">{{ $message }}</div>

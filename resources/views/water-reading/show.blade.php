@@ -50,8 +50,7 @@
                     @endphp
                     <div style="text-align: center; margin-top: 0; margin-bottom: 10px; padding-bottom: 10px;">
                     
-                        <h4 style="margin-bottom: 5px;">NOVUSURGE</h4>
-                        <img src="{{asset('/images/novustreamlogo.png')}}" alt="logo" class="web-logo">
+                        <img src="{{asset('/images/novusurge.png')}}" alt="logo" class="web-logo">
                         <img src="{{ $base64 }}" alt="logo" class="print-logo">
                         
                         <p style="font-size: 12px; text-transform: uppercase; margin: 0;">VAT Reg TIN: 218-595-528-000</p>
