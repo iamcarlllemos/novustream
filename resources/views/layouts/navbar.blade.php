@@ -2,7 +2,7 @@
 	<div class="header-content responsive-wrapper">
 		<div class="header-logo">
 			<a href="#" class="nav-link text-uppercase fw-bold">
-				<img src="{{asset('images/logo.jpg')}}" alt="" srcset="" style="width: 100px;">
+				<img src="{{asset('images/logo.jpg')}}" alt="" srcset="" style="width: 80px;">
 			</a>
 		</div>
 		<div class="header-navigation">
